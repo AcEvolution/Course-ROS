@@ -1,3 +1,6 @@
+# macOS Temp file
+*.DS_Store
+
 devel/
 logs/
 build/

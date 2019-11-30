@@ -1,0 +1,385 @@
+\documentclass[geye,green,kindle,cn]{elegantnote}
+
+\usepackage{makecell}
+\usepackage{tabularx}
+
+\title{「ROS」学习笔记}
+\author{\href{https://accelerator-blog.com}{陈策}}
+\version{0.0}
+\date{2019 年 11 月 21 日}
+\begin{document}
+\maketitle
+\centerline{\includegraphics[width=0.32\textwidth]{src/TsinghuaLogo.pdf}}
+
+\begin{table}
+    \centering
+    \caption{中文术语表A} \label{table:ChineseTermTableA}
+    \begin{tabular}{p{80pt}<{\centering}p{80pt}<{\centering}}
+    \Xhline{1.0pt}
+    \textbf{英文术语} & 
+    \textbf{中文术语} \\
+    \hline
+    Node &
+    节点 \\
+    Master &
+    主节点 \\
+    Package &
+    功能包 \\
+    Metapackage &
+    元功能包 \\
+    Dependent Package &
+    依赖包 \\
+    Message &
+    消息 \\
+    Service &
+    服务 \\
+    Topic &
+    话题 \\
+    Service Server &
+    服务服务器 \\
+    Service Client &
+    服务客户端 \\
+    Parameter Server &
+    参数服务器 \\
+    Publisher &
+    发布者 \\
+    Subscriber &
+    订阅者 \\
+    \Xhline{1.0pt}
+    \end{tabular}
+\end{table}
+
+\begin{table}
+    \centering
+    \caption{中文术语表B} \label{table:ChineseTermTableB}
+    \begin{tabular}{p{80pt}<{\centering}p{80pt}<{\centering}}
+    \Xhline{1.0pt}
+    \textbf{英文术语} & 
+    \textbf{中文术语} \\
+    \hline
+    Launch &
+    启动 \\
+    Client Library &
+    客户端库 \\
+    Repositories &
+    存储库 \\
+    Namespace &
+    命名空间 \\
+    Base Name &
+    基本名称 \\
+    Global Name &
+    全局名称 \\
+    Private Name &
+    私有名称 \\
+    Relative Name &
+    相对名称 \\
+    Node Handle &
+    节点句柄 \\
+    Timer &
+    计时器 \\
+    Transform &
+    变换 \\
+    Master PC &
+    总机 \\
+    Host PC &
+    主机 \\
+    Build &
+    构建 \\
+    \Xhline{1.0pt}
+    \end{tabular}
+\end{table}
+
+\begin{table}
+    \centering
+    \caption{中文术语表C} \label{table:ChineseTermTableC}
+    \begin{tabular}{p{80pt}<{\centering}p{80pt}<{\centering}}
+    \Xhline{1.0pt}
+    \textbf{英文术语} & 
+    \textbf{中文术语} \\
+    \hline
+    Motion Planning &
+    运动规划 \\
+    Odometry &
+    侧位 \\
+    Pose &
+    姿态 \\
+    Play/Replay &
+    回放 \\
+    Introspection &
+    自检 \\
+    Icon &
+    图标 \\
+    Dead Reckoning &
+    导航推测 \\
+    Base &
+    基座 \\
+    Link &
+    连杆 \\
+    Joint &
+    关节 \\
+    End Effector &
+    末端执行器 \\
+    \Xhline{1.0pt}
+    \end{tabular}
+\end{table}
+
+\section{机器人软件平台}
+\subsection{平台的组件}
+\subsection{机器人软件平台}
+\subsection{机器人软件平台的必要性}
+\subsection{机器人软件平台将带来的未来}
+\section{机器人操作系统 ROS}
+\subsection{ROS 简介}
+\subsection{元操作系统}
+\subsection{ROS的目的}
+\subsection{ROS的组件}
+\subsection{ROS的生态系统}
+\subsection{ROS的历史}
+\subsection{ROS的版本}
+\subsubsection{版本规则}
+\subsubsection{版本周期}
+\subsubsection{选择版本}
+\section{搭建ROS开发环境}
+\subsection{安装ROS}
+\subsubsection{常规安装}
+\subsubsection{简易安装}
+\subsection{搭建ROS开发环境}
+\subsubsection{ROS配置}
+\subsubsection{集成开发环境(IDE)}
+\subsection{ROS操作测试}
+\section{ROS的重要概念}
+\subsection{ROS术语}
+\subsection{消息通信}
+\subsubsection{话题(topic)}
+\subsubsection{服务(service)}
+\subsubsection{动作(action)}
+\subsubsection{参数(parameter)}
+\subsubsection{消息通信的过程}
+\subsection{消息}
+\subsubsection{Msg文件}
+\subsubsection{Srv文件}
+\subsubsection{Action文件}
+\subsection{名称(name)}
+\subsection{坐标变换(TF)}
+\subsection{客户端车}
+\subsection{异构设备间的通信}
+\subsection{文件系统}
+\subsubsection{文件组织结构}
+\subsubsection{安装目录}
+\subsubsection{工作目录}
+\subsection{构建系统}
+\subsubsection{创建功能包}
+\subsubsection{修改功能包配置文件(package.xml)}
+\subsubsection{修改构建配置文件(CMakelists.txt)}
+\subsubsection{编写源代码}
+\subsubsection{构建功能包}
+\subsubsection{运行节点}
+\section{ROS命令}
+\subsection{ROS命含概述}
+\subsection{ROS shell命令}
+\subsubsection{Roscd：移动ROS目录}
+\subsubsection{Rosls:ROS文件列表}
+\subsubsection{Rosed:ROS编辑命令}
+\subsection{ROS执行命令}
+\subsubsection{Roscore：运行roscore}
+\subsubsection{Rosrun：运行ROS节点}
+\subsubsection{Roslaunch：运行多个ROS节点}
+\subsubsection{Roscrea：检查及删除ROS日志}
+\subsection{ROS信息命令}
+\subsubsection{运行节点}
+\subsubsection{Rosnode:ROS节点}
+\subsubsection{Rostoplc:ROS话题}
+\subsubsection{Rosservice:ROS服务}
+\subsubsection{Rosparam:ROS参数}
+\subsubsection{Rosmsg:ROS消息信息}
+\subsubsection{Rossrv:ROS服务信息}
+\subsubsection{Rosbag:ROS日志信息}
+\subsection{ROS catkin命令}
+\subsection{ROS功能包命令}
+\section{ROS工具}
+\subsection{三维可视化工具(RViz)}
+\subsubsection{RViz安装与运行}
+\subsubsection{RViz画面布局}
+\subsubsection{RViz显示屏}
+\subsection{ROSGUI开发工具(rqt)}
+\subsubsection{Rqt安装与运行}
+\subsubsection{Rqt插件}
+\subsubsection{Rqt\_image\_view}
+\subsubsection{Rqt\_graph}
+\subsubsection{Rat\_plot}
+\subsubsection{Rqt\_bag}
+\section{ROS编程基础}
+\subsection{ROS编程前须知事项}
+\subsubsection{标准单位}
+\subsubsection{坐标表现方式}
+\subsubsection{编程规则}
+\subsection{发布者节点和订阅者节点的创建和运行}
+\subsubsection{创建功能包}
+\subsubsection{修改功能包配置文件}
+\subsubsection{修改构建配置文件(Cmakelists.txt)}
+\subsubsection{创建消息文件}
+\subsubsection{创建发布者节点}
+\subsubsection{创建订说者节点}
+\subsubsection{构建(build)节点}
+\subsubsection{运行发布者}
+\subsubsection{运行订阅者}
+\subsubsection{检查运行中的节点的通信状态}
+\subsection{创建和运行服务服务器与客户端节点}
+\subsubsection{创建功能包}
+\subsubsection{修改功能包配置文件(package.xml)}
+\subsubsection{修改构建配置文件(CMakelists.txt)}
+\subsubsection{创建服务文件}
+\subsubsection{创建服务服务器节点}
+\subsubsection{创建服务客户端节点}
+\subsubsection{构建节点}
+\subsubsection{运行服务服务器}
+\subsubsection{运行服务客户端}
+\subsubsection{Rosservice call1命令的用法}
+\subsubsection{GUI工具ServiceCaller的用法}
+\subsection{创建和运行动作服务器和客户端节点}
+\subsubsection{生成功能包}
+\subsubsection{修改功能包配置文件(package.xml)}
+\subsubsection{修改构建配置文件(CMakelists.txt)}
+\subsubsection{创建动作文件}
+\subsubsection{创建动作服务节点}
+\subsubsection{创建客户端节点}
+\subsubsection{构建节点}
+\subsubsection{运行动作服务器}
+\subsubsection{运行动作客户端}
+\subsection{参数的用法}
+\subsubsection{利用参数创建节点}
+\subsubsection{设置参数}
+\subsubsection{读取参数}
+\subsubsection{构建节点和运行节点}
+\subsubsection{查看参数目录}
+\subsubsection{参数的用例}
+\subsection{Roslaunch的用法}
+\subsubsection{Roslaunch的应用}
+\subsubsection{Launch标签}
+\section{机器人、传感器和电机}
+\subsection{机器人功能包}
+\subsection{传感器功能包}
+\subsubsection{传感器的类型}
+\subsubsection{传感器功能包的分类}
+\subsection{相机}
+\subsubsection{USB摄像头相关功能包}
+\subsubsection{USB摄像头测试}
+\subsubsection{查看图像信息}
+\subsubsection{远程传输图像}
+\subsubsection{相机校准}
+\subsection{深度相机(Depth Camera)}
+\subsubsection{Depth Camera的类型}
+\subsubsection{Depth Camera测试}
+\subsubsection{Point Cloud Data(点云数据）的可视化}
+\subsubsection{Point Cloud Data相关库}
+\subsection{激光距离传感器}
+\subsubsection{LDS传感器距离测量原理}
+\subsubsection{LDS测试}
+\subsubsection{可视化LDS的距离值}
+\subsubsection{LDS的应用}
+\subsection{电机功能包}
+\subsubsection{Dynamixel舵机}
+\subsection{已公开的功能包的用法}
+\subsubsection{搜索功能包}
+\subsubsection{安装依赖包}
+\subsubsection{安装功能包}
+\subsubsection{运行功能包}
+\section{嵌入式系统}
+\subsection{OpenCR}
+\subsubsection{特点}
+\subsubsection{控制板规格}
+\subsubsection{搭建开发环境}
+\subsubsection{OpenCR例程}
+\subsection{RosseriaL}
+\subsubsection{Rosserial server}
+\subsubsection{Rosserial client}
+\subsubsection{Rosserial协议}
+\subsubsection{Rosserial的约束条件}
+\subsubsection{安装rosserial}
+\subsubsection{Rosserial例程}
+\subsection{TurtleBot3的固件}
+\subsubsection{TurtleBot3 Burgeri固件}
+\subsubsection{TurtleBot3 Waffle和Waffle Pi固件}
+\subsubsection{Turtlebot3配置固件}
+\section{移动机器人}
+\subsection{ROS支持的机器人}
+\subsection{TurtleBot3系列机器人}
+\subsection{TurleBot3的硬件}
+\subsection{Turtlebot3软件}
+\subsection{Turtlebot3的开发环境}
+\subsection{Turtlebot3远程控制}
+\subsubsection{遥控TurtleBot3}
+\subsubsection{可视化TurtleBot3}
+\subsection{Turtlebot3话题}
+\subsubsection{订阅话题}
+\subsubsection{通过订阅话题控制机器人}
+\subsubsection{发布话题}
+\subsubsection{通过发布话题识别机器人状态}
+\subsection{使用RViz仿真Turtlebot3}
+\subsubsection{仿真}
+\subsubsection{运行虚拟机器人}
+\subsubsection{Odometry和TF}
+\subsection{利用Gazebo仿真Turtlebot3}
+\subsubsection{Gazebo仿真器}
+\subsubsection{启动虚拟机器人}
+\subsubsection{虚拟SLAM和导航}
+\section{SLAM和导航}
+\subsection{导航及其组成要素}
+\subsubsection{移动机器人的导航}
+\subsubsection{地图}
+\subsubsection{测量或估计机器人姿态的功能}
+\subsubsection{识别障碍物如墙壁和物体}
+\subsubsection{计算最优路径和行驶功能}
+\subsection{SLAM实习篇}
+\subsubsection{对于使用SLAM的机器人的硬件限制}
+\subsubsection{SLAM的实验环境}
+\subsubsection{用于SLAM的ROS功能包}
+\subsubsection{运行SLAM}
+\subsection{利用预先准备好的bag文件运行的SLAM}
+\subsection{SLAM应用篇}
+\subsubsection{地图}
+\subsubsection{SLAM所需的信息}
+\subsubsection{SLAM的处理过程}
+\subsubsection{坐标变换（TF)}
+\subsubsection{Turtlebot3\_slam功能包}
+\subsection{SLAM理论篇}
+\subsubsection{SLAM}
+\subsubsection{多种位置估计（localization）方法论}
+\subsection{导航实战篇}
+\subsubsection{用于导航的ROS功能包}
+\subsubsection{运行导航}
+\subsection{导航应用程序}
+\subsubsection{导航}
+\subsubsection{导航所需的信息}
+\subsubsection{Turtlebot3\_navigation的各节点和话题状态}
+\subsubsection{Turtlebot3\_navigation设置}
+\subsubsection{设置turtlebot3\_navigation的详细参数}
+\subsection{导航理论篇}
+\subsubsection{Costmap}
+\subsubsection{AMCL}
+\subsection{Dynamic Window Approach(DWA)}
+\section{服务机器人}
+\subsection{配关服务机器人}
+\subsection{关服务机器人的结构}
+\subsubsection{系统结构}
+\subsubsection{系统设计}
+\subsubsection{服务核心节点}
+\subsubsection{服务主节点}
+\subsubsection{服务从节点}
+\subsection{用ROS Java进行Android平板PC编程}
+\section{机械手臂}
+\subsection{机械手臂介绍}
+\subsubsection{机械手臂的结构和控制}
+\subsubsection{机械手臂和ROS}
+\subsection{OpenManipulator。建模和仿真}
+\subsubsection{OpenManipulator}
+\subsubsection{机械手臂建模}
+\subsubsection{Gazebo设置}
+\subsection{MoveIt!}
+\subsubsection{Move\_group}
+\subsubsection{MoveIt!Setup Assistant}
+\subsubsection{Gazebo仿真}
+\subsection{应用于实际平台}
+\subsubsection{准备和控制OpenManipulator}
+\subsubsection{OpenManipulator与turtleBot3Waffle及Waffle Pi}
+\end{document}
