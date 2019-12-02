@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.11.23)  30 NOV 2019 23:27
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.11.23)  2 DEC 2019 09:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1322,12 +1322,13 @@ File: xunicode-extra.def 2019/04/07 v3.7.2 extra definition for xunicode
 Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count356
 \l__xeCJK_listings_flag_int=\count357
-) (./elegantnote.aux)
+)
+No file elegantnote.aux.
 \openout1 = `elegantnote.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 13.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 13.
- (c:/Program Files/texlive/2019/texmf-dist/tex/latex/newtx/omlntxmi.fd
+(c:/Program Files/texlive/2019/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 13.
@@ -1387,14 +1388,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
 LaTeX Info: Redefining \nameref on input line 13.
- (./elegantnote.out) (./elegantnote.out)
 \@outlinefile=\write4
 \openout4 = `elegantnote.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -3407,31 +3410,195 @@ Missing character: There is no   in font YRDZST Regular/OT:script=latn;language
 File: src/M.png Graphic file (type bmp)
 <src/M.png>
 Missing character: There is no   in font YRDZST Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
- [130] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
-Overfull \hbox (7.39272pt too wide) in paragraph at lines 1546--1546
-[]\TU/ntxtlf/bx/n/12 OpenManipulator \TU/YRDZST(0)/bx/n/12 与 \TU/ntxtlf/bx/n/12 turtleBot3Waffle \TU/YRDZST(0)/bx/n/12 及 \TU/ntxtlf/bx/n/12 Waf-
+ [130] [131]
+File: src/N.png Graphic file (type bmp)
+<src/N.png>
+Missing character: There is no   in font YRDZST Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
+ [132]
+File: src/O.png Graphic file (type bmp)
+<src/O.png>
+Missing character: There is no   in font YRDZST Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
+ [133] [134] [135]
+Overfull \hbox (32.94632pt too wide) in paragraph at lines 1403--1404
+\TU/YRDZST(0)/m/n/12 能 包 的 命 令。|  这 个 功 能 包 依 赖 于 \TU/ntxtlf/m/n/12 message_generation\TU/YRDZST(0)/m/n/12 、|
  []
 
-[150]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1547.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1547.
- (./elegantnote.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1547.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1547.
-Package rerunfilecheck Info: File `elegantnote.out' has not changed.
-(rerunfilecheck)             Checksum: 61EF9E6CC7026CE53F6667BF0D766719.
+[136] [137] [138] [139]
+Overfull \hbox (6.3671pt too wide) in paragraph at lines 1443--1444
+[]\TU/ntxtlf/m/n/12 ROS \TU/YRDZST(0)/m/n/12 的 构 建 系 统 \TU/ntxtlf/m/n/12 catkin \TU/YRDZST(0)/m/n/12 基 本 上 使 用 \TU/ntxtlf/m/n/12 CMake\TU/YRDZST(0)/m/n/12 ，|
+ []
+
+[140] [141] [142] [143] [144] [145]
+Overfull \hbox (39.91507pt too wide) in paragraph at lines 1507--1508
+[]\TU/YRDZST(0)/m/n/12 换 句 话 说，|  是 在 \TU/ntxtlf/m/n/12 src \TU/YRDZST(0)/m/n/12 目 录 中 构 建 \TU/ntxtlf/m/n/12 topic_publisher.cpp
+ []
+
+(c:/Program Files/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+) (c:/Program Files/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+) (c:/Program Files/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+) [146] [147] [148] [149] [150] [151] [152] [153]
+Overfull \hbox (27.54007pt too wide) in paragraph at lines 1600--1601
+[]\TU/YRDZST(0)/m/n/12 以 下 是 使 用 \TU/ntxtlf/m/n/12 rosrun \TU/YRDZST(0)/m/n/12 命 令 运 行 \TU/ntxtlf/m/n/12 ros_tutorials_topic
+ []
+
+[154]
+Overfull \hbox (31.6257pt too wide) in paragraph at lines 1606--1607
+[]\TU/YRDZST(0)/m/n/12 下 面，|  我 们 使 用 \TU/ntxtlf/m/n/12 rostopic \TU/YRDZST(0)/m/n/12 命 令 获 取 \TU/ntxtlf/m/n/12 topic_publisher
+ []
+
+[155] [156]
+Overfull \hbox (39.04007pt too wide) in paragraph at lines 1624--1625
+[]\TU/YRDZST(0)/m/n/12 订 阅 者 接 收 到 了 发 布 者 发 布 的 \TU/ntxtlf/m/n/12 ros_tutorial_msg
+ []
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+Overfull \hbox (23.60257pt too wide) in paragraph at lines 1631--1632
+|\TU/YRDZST(0)/m/n/12 （\TU/ntxtlf/m/n/12 topic_publisher\TU/YRDZST(0)/m/n/12 ）|  正 在 传 输 话 题  |（\TU/ntxtlf/m/n/12 ros_tutorial_msg\TU/YRDZST(0)/m/n/12 ） ，|
+ []
 
- ) 
+
+Overfull \hbox (57.72757pt too wide) in paragraph at lines 1631--1632
+\TU/YRDZST(0)/m/n/12 并 且 可 以 确 认 它 正 在 接 收 订 阅 者 节 点  |（\TU/ntxtlf/m/n/12 topic_subscriber\TU/YRDZST(0)/m/n/12 ） 。| 
+ []
+
+[157] [158]
+Overfull \hbox (32.94632pt too wide) in paragraph at lines 1635--1636
+\TU/YRDZST(0)/m/n/12 能 包 的 命 令。|  这 个 功 能 包 依 赖 于 \TU/ntxtlf/m/n/12 message_generation\TU/YRDZST(0)/m/n/12 、|
+ []
+
+[159] [160] [161] [162] [163] [164] [165] [166]
+./elegantnote.tex:1737: Missing $ inserted.
+<inserted text> 
+                $
+l.1737 换句话说，是构建service_
+                       server.cpp文件来创建service_server可执行文件。我们 按以下顺序编写一个具有服务服务...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./elegantnote.tex:1738: Missing $ inserted.
+<inserted text> 
+                $
+l.1738 \begin{lstlisting}[frame=single,language=]
+                                                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./elegantnote.tex:1738: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.1738 \begin{lstlisting}[frame=single,language=]
+                                                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./elegantnote.tex:1738: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.1738 \begin{lstlisting}[frame=single,language=]
+                                                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./elegantnote.tex:1738: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.1738 \begin{lstlisting}[frame=single,language=]
+                                                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no 文 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 件 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 来 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 创 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 建 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 可 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 执 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 行 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 文 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 件 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 。 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 我 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 们 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 按 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 以 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 下 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 顺 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 序 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 编 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 写 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 一 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 个 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 具 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 有 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 服 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 务 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 服 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 务 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 器 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 节 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 点 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 功 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 能 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 的 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 程 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 序 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 吧 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 。 in font ntx-Regular-tlf-ot1!
+
+Overfull \hbox (46.49266pt too wide) in paragraph at lines 1737--1738
+[]\TU/YRDZST(0)/m/n/12 换 句 话 说，|  是 构 建 \TU/ntxtlf/m/n/12 service$[]\OML/ntxmi/m/it/12 erver:cppservice[]erver$ 
+ []
+
+./elegantnote.tex:1738: Undefined control sequence.
+\lst@GetLineInterval ...r \lst@GLI \lst@linerange 
+                                                  \@nil 
+l.1738 \begin{lstlisting}[frame=single,language=]
+                                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Runaway argument?
+\@nil \lst@ifsensitive \else \let \lst@KeywordTest \lst@KEYWORDTEST \let \ETC.
+./elegantnote.tex:1742: Paragraph ended before \lst@GLI was complete.
+<to be read again> 
+                   \par 
+l.1742 
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./elegantnote.tex:1748: TeX capacity exceeded, sorry [input stack size=5000].
+\lst@RestoreOrigCatcodes ->\catcode 1=
+                                      15\relax \catcode 2=15\relax \catcode ...
+l.1748     // 
+              如果有服务请求，将执行以下处理
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
 Here is how much of TeX's memory you used:
- 45469 strings out of 492922
- 880580 string characters out of 6130898
- 1190988 words of memory out of 5000000
- 48874 multiletter control sequences out of 15000+600000
+ 46446 strings out of 492922
+ 891578 string characters out of 6130898
+ 1201189 words of memory out of 5000000
+ 49851 multiletter control sequences out of 15000+600000
  556365 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 75i,12n,124p,794b,1903s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on elegantnote.pdf (150 pages).
+ 5000i,12n,124p,794b,11430s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on elegantnote.pdf (166 pages).
